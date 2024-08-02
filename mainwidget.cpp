@@ -12,3 +12,9 @@ MainWidget::~MainWidget()
 {
     delete ui;
 }
+
+void MainWidget::on_pushButton_clicked()
+{
+    qDebug("Hello");
+}
+
