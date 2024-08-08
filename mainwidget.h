@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include <QFileDialog>
+#include <QGraphicsView>
+#include <QGraphicsScene>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

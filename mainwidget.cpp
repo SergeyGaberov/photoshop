@@ -6,6 +6,11 @@ MainWidget::MainWidget(QWidget *parent)
     , ui(new Ui::MainWidget)
 {
     ui->setupUi(this);
+
+    QGraphicsScene* scene = new QGraphicsScene();
+    ui->Graphic->setScene(scene);
+    // Рисование линии
+    scene->addLine(QLine(0, -ui->Graphic->height() / 2, 0, ui->Graphic->height() / 2), QPen(Qt::black, 5, Qt::SolidLine, Qt::RoundCap));
 }
 
 MainWidget::~MainWidget()
@@ -29,4 +34,3 @@ void MainWidget::on_pushButton_3_clicked()
     QFileDialog* dialog = new QFileDialog();
     dialog->getOpenFileName();
 }
-

@@ -52,6 +52,16 @@
     <string>Выполнить</string>
    </property>
   </widget>
+  <widget class="QGraphicsView" name="Graphic">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>61</y>
+     <width>431</width>
+     <height>511</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
